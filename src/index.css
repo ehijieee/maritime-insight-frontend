@@ -17,10 +17,10 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 0%;
 
-    /* Coral/Orange Navigation Theme */
-    --primary: 14 100% 72%;
-    --primary-foreground: 0 0% 0%;
-    --primary-muted: 14 60% 88%;
+    /* Red Navigation Theme */
+    --primary: 0 84% 60%;
+    --primary-foreground: 0 0% 100%;
+    --primary-muted: 0 60% 95%;
     
     /* Text Colors */
     --text-dark: 0 0% 0%;
