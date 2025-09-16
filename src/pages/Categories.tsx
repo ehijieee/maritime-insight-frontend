@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
+import WixNavbar from '@/components/WixNavbar';
+import WixFooter from '@/components/WixFooter';
 import Sidebar from '@/components/Sidebar';
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -80,7 +80,7 @@ const Categories = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navbar />
+      <WixNavbar />
       
       {/* Category Header */}
       <section className="bg-gradient-hero text-primary-foreground py-16">
@@ -215,7 +215,7 @@ const Categories = () => {
         </div>
       </section>
 
-      <Footer />
+      <WixFooter />
     </div>
   );
 };

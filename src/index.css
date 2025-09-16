@@ -2,53 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Nigerian Business & Maritime Digest Design System
+/* Wix-Inspired Design System - Climate News Style
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 215 25% 15%;
+    --foreground: 0 0% 0%;
 
     --card: 0 0% 100%;
-    --card-foreground: 215 25% 15%;
+    --card-foreground: 0 0% 0%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 15%;
+    --popover-foreground: 0 0% 0%;
 
-    /* Maritime Blue Theme */
-    --primary: 214 84% 20%;
-    --primary-foreground: 0 0% 98%;
-    --primary-light: 214 60% 35%;
+    /* Coral/Orange Navigation Theme */
+    --primary: 14 100% 72%;
+    --primary-foreground: 0 0% 0%;
+    --primary-muted: 14 60% 88%;
     
-    /* Business Gold Accents */
-    --accent-gold: 45 90% 55%;
-    --accent-gold-foreground: 215 25% 15%;
+    /* Text Colors */
+    --text-dark: 0 0% 0%;
+    --text-muted: 0 0% 40%;
 
-    --secondary: 214 20% 95%;
-    --secondary-foreground: 214 84% 20%;
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 0%;
 
-    --muted: 214 15% 97%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 0 0% 98%;
+    --muted-foreground: 0 0% 40%;
 
-    --accent: 214 20% 95%;
-    --accent-foreground: 214 84% 20%;
+    --accent: 0 0% 95%;
+    --accent-foreground: 0 0% 0%;
 
-    /* Maritime Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-light)));
-    --gradient-card: linear-gradient(180deg, hsl(var(--card)), hsl(var(--muted)));
-    
-    /* Professional Shadows */
-    --shadow-card: 0 4px 20px -4px hsl(var(--primary) / 0.1);
-    --shadow-hero: 0 20px 60px -20px hsl(var(--primary) / 0.3);
+    /* Clean Shadows */
+    --shadow-card: 0 2px 8px 0 hsl(0 0% 0% / 0.1);
+    --shadow-hover: 0 4px 12px 0 hsl(0 0% 0% / 0.15);
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214 20% 90%;
-    --input: 214 20% 96%;
-    --ring: 214 84% 20%;
+    --border: 0 0% 90%;
+    --input: 0 0% 96%;
+    --ring: 0 0% 20%;
 
     --radius: 0.5rem;
 

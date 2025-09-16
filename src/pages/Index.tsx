@@ -1,15 +1,13 @@
-import Navbar from '@/components/Navbar';
-import Hero from '@/components/Hero';
-import BlogGrid from '@/components/BlogGrid';
-import Footer from '@/components/Footer';
+import WixNavbar from '@/components/WixNavbar';
+import WixLayout from '@/components/WixLayout';
+import WixFooter from '@/components/WixFooter';
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <Navbar />
-      <Hero />
-      <BlogGrid />
-      <Footer />
+      <WixNavbar />
+      <WixLayout />
+      <WixFooter />
     </div>
   );
 };

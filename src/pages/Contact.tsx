@@ -1,5 +1,5 @@
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
+import WixNavbar from '@/components/WixNavbar';
+import WixFooter from '@/components/WixFooter';
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -36,7 +36,7 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navbar />
+      <WixNavbar />
       
       {/* Hero Section */}
       <section className="bg-gradient-hero text-primary-foreground py-20">
@@ -167,7 +167,7 @@ const Contact = () => {
         </div>
       </section>
 
-      <Footer />
+      <WixFooter />
     </div>
   );
 };

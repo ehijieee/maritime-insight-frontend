@@ -1,5 +1,5 @@
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
+import WixNavbar from '@/components/WixNavbar';
+import WixFooter from '@/components/WixFooter';
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Users, Target, Award, Clock } from 'lucide-react';
@@ -30,13 +30,13 @@ const About = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navbar />
+      <WixNavbar />
       
       {/* Hero Section */}
-      <section className="bg-gradient-hero text-primary-foreground py-20">
+      <section className="bg-primary text-primary-foreground py-16">
         <div className="container mx-auto px-4 lg:px-6">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl lg:text-5xl font-bold mb-6">
+            <h1 className="text-4xl lg:text-5xl font-serif font-medium mb-6">
               About Nigerian Business & Maritime Digest
             </h1>
             <p className="text-xl lg:text-2xl text-primary-foreground/90 leading-relaxed">
@@ -105,7 +105,7 @@ const About = () => {
         </div>
       </section>
 
-      <Footer />
+      <WixFooter />
     </div>
   );
 };
