@@ -1,7 +1,7 @@
 import { GraphQLClient } from 'graphql-request';
 
 const API_URL = import.meta.env.VITE_HASHNODE_API || 'https://gql.hashnode.com';
-const HASHNODE_HOST = import.meta.env.VITE_HASHNODE_HOST || 'yourblog.hashnode.dev';
+const HASHNODE_HOST = import.meta.env.VITE_HASHNODE_HOST || 'nigerian-business-and-maritime-digest.hashnode.dev';
 
 const client = new GraphQLClient(API_URL);
 
